@@ -1,0 +1,58 @@
+.container{
+    padding: 16px;
+    background-color: aquamarine;
+}
+h1{
+  text-align: center;    
+}
+.container-fluid{
+    margin-top: 35px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+input[type=text]{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    display: inline-block;
+    border: none;
+    margin:5px 0 22px 0;
+  background: #f1f1f1
+
+}
+input[type=password]{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    display: inline-block;
+    border: none;
+    margin:5px 0 22px 0;
+  background: #f1f1f1
+}
+input[type=email]{
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    display: inline-block;
+    border: none;
+    margin:5px 0 22px 0;
+  background: #f1f1f1
+}
+input[type=submit]{
+    margin-top: 20px;
+}
+.styledbutton{
+    background-color: rgb(6, 176, 94);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type=submit]:hover{
+    background-color: blue;
+    cursor: pointer;
+}

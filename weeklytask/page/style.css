@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(206, 182, 182);
+}
+.container-fluid{
+    padding: 16px;
+    background-color: grey;
+    margin-top: 100px;
+}
+input[type=button]{
+    width: 100% ;
+    display: inline-block;
+    padding: 15px;
+    margin: 5px 0 22px 0 ;
+    background-color: rgb(83, 48, 48);
+}
+h1{
+    margin-left: 580px;
+    color:  rgb(83, 48, 48);;
+}
+input[type=submit]:hover{
+    background-color: crimson;
+}
+input[type=button]:hover{
+    background-color: crimson;
+}
+p{
+    margin-left: 320px;
+    font-size: large;
+    font-family: cursive;
+    margin-top: 100px;
+}
